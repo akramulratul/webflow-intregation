@@ -38,19 +38,19 @@ const TodosList = ({ todos, setTodos, setEditTodo }) => {
               className="button-complete task-button"
               onClick={() => handleComplete(todo)}
             >
-              <i className="fa fa-edit">c</i>
+              <i class="fa-solid fa-pen-to-square">✔️</i>
             </button>
             <button
               className="button-edit task-button"
               onClick={() => handleEdit(todo)}
             >
-              <i className="fa fa-edit">e</i>
+              <i className="fa fa-check-circle">✏️</i>
             </button>
             <button
               className="button-delete task-button"
               onClick={() => handleDelete(todo)}
             >
-              <i className="fa fa-trash">t</i>
+              <i className="fa fa-trash">🗑️</i>
             </button>
           </div>
         </li>
